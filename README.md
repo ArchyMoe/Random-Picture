@@ -3,6 +3,10 @@
 随机图片api
 JUST FOR FUN
 
+由UserUnknown进行2次修改的版本（
+
+原著版权声明见预览网页下方
+
 ## 实验地址:
 
 [https://random-pic.now.sh/](https://random-pic.now.sh/)*(部署到vercel)*
