@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Random Pictures</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="dns-prefetch" href="https://cdn.jsdelivr.net/">
+  <link rel="preload" href="https://cdn.jsdelivr.net/gh/kylelogue/mustard-ui/dist/css/mustard-ui.min.css" as="style">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/kylelogue/mustard-ui/dist/css/mustard-ui.min.css" />
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.2/dist/jquery.min.js"></script>
+  <script>
+    $(document).ready(function () {
+
+      $('.scroll-down, .get-started').on('click', function (e) {
+        e.preventDefault()
+        $('html, body').animate({
+          scrollTop: $('section:first-of-type').offset().top
+        }, 300)
+      })
+
+    })
+  </script>
+  <style>
+    header {
+      background: #a0e5e4
+    }
+
+    .get-started {
+      background: #43ccc8;
+      border: 3px solid #50d0cc;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1 class="title">Random Pictures API</h1>
+    <h2 class="subtitle">Documents</h2>
+    <p class="disclaimer"><a href="show.html">Pictures</a></p>
+    <button class="get-started button button-primary button-large">Details</button>
+    <a class="scroll-down" href="#"></a>
+  </header>
+  <section>
+    <h3><strong>Invoking</strong></h3>
+    <p>./api can redirect to pictures.</p>
+    <p>./api/?id=number redirect to a designated picture.</p>
+    <p>./api=number can also redirect to a designated picture.</p>
+    <p>e.g. ：<a href="./api/?type=json&id=3">./api/?type=json&id=3</a></p>
+  </section>
+  <section>
+    <h3><strong><a href="./api/?type=length">./api/?type=length</a></strong></h3>
+    <p>Returns total number of pictures -- The Max(id)</p>
+  </section>
+  <section>
+    <h3><strong>Visit <a href="./api/?type=json">./api/?type=json</a></strong></h3>
+    <p>The server output json</p>
+    <pre class="language-json">
+    <code class="language-json">     
+{&quot;code&quot;:&quot;200&quot;,&quot;url&quot;:&quot;url&quot;}
+    </code>
+</pre>
+  </section>
+  <footer>
+    <p class="copyright align-center">Deployed by <a href="http://pathunknown.ml/">UserUnknown</a> | Made by <a href="https://blog.poo.li/">Crazy白茫茫</a>. <a
+        href="https://github.com/Crazy-White/Random-Picture">Github(Source Code)</a></p>
+  </footer>
+  <!--</body>-->
+</body>
+
+</html>
