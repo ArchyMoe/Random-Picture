@@ -14,4 +14,3 @@ https://cdn.jsdelivr.net/gh/userunknownx/blog-bg/15.jpg
 https://cdn.jsdelivr.net/gh/userunknownx/blog-bg/16.jpg
 https://cdn.jsdelivr.net/gh/userunknownx/blog-bg/18.jpg
 https://cdn.jsdelivr.net/gh/userunknownx/blog-bg/19.jpg
-https://cdn.jsdelivr.net/gh/userunknownx/cdn/22.jpg
